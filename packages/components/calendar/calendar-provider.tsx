@@ -49,7 +49,7 @@ export const CalendarProvider = ({
 
 	const value = useMemo(
 		() => ({
-			locale: DEFAULT_LOCALE,
+			locale,
 			timezone,
 			today: todayDate,
 			viewDate,
@@ -60,6 +60,7 @@ export const CalendarProvider = ({
 			onViewDateChange: handleViewDateChange,
 		}),
 		[
+			locale,
 			timezone,
 			todayDate,
 			viewDate,

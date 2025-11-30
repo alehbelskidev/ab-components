@@ -24,14 +24,6 @@ type CalendarContextType = {
 	onLocaleChange: (locale: string) => void
 }
 
-export const CalendarContext = createContext<CalendarContextType>({
-	locale: DEFAULT_LOCALE,
-	timezone: DEFAULT_TIMZEONE,
-	today: dayjs().tz(DEFAULT_TIMZEONE),
-	viewDate: dayjs().tz(DEFAULT_TIMZEONE),
-	view: "month",
-	onViewChange: () => {},
-	onViewDateChange: () => {},
-	onTodayChange: () => {},
-	onLocaleChange: () => {},
-})
+export const CalendarContext = createContext<CalendarContextType | undefined>(
+	undefined
+)
