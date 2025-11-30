@@ -1,0 +1,18 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"target": "ES2021",
+		"lib": ["DOM", "DOM.Iterable", "ES2021"],
+		"jsx": "react-jsx",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"allowJs": false,
+		"resolveJsonModule": true,
+		"incremental": true,
+		"isolatedDeclarations": false,
+		"noEmit": true,
+		"types": ["vite/client"],
+		"baseUrl": "."
+	},
+	"include": ["src"]
+}

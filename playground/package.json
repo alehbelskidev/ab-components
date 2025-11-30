@@ -17,6 +17,7 @@
 	},
 	"devDependencies": {
 		"@tailwindcss/vite": "^4.1.17",
+		"@types/react": "^19.2.7",
 		"@vitejs/plugin-react": "^5.1.1",
 		"vite": "^5.2.0"
 	}
