@@ -1,0 +1,15 @@
+{
+	"name": "ab-components-registry",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"description": "Public registry for shadcn-compatible components",
+	"files": [
+		"registry.json",
+		"components/**/*",
+		"files/**/*"
+	],
+	"scripts": {
+		"build": "echo \"Nothing to build\""
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"$schema": "https://ui.shadcn.com/schema/registry.json",
+	"name": "ab-components",
+	"version": "0.0.1",
+	"dependencies": [],
+	"items": [
+		{
+			"name": "calendar",
+			"type": "registry:component",
+			"title": "Calendar",
+			"description": "Fully interactive calendar component",
+			"registryDependencies": [],
+			"dependencies": [],
+			"files": [
+				"files/calendar/index.ts",
+				"files/calendar/calendar-ctx.tsx",
+				"files/calendar/calendar-provider.tsx",
+				"files/calendar/calendar-root.tsx",
+				"files/calendar/use-calendar.ts",
+				"files/calendar/header/calendar-add-event-button.tsx",
+				"files/calendar/header/calendar-date-title.tsx",
+				"files/calendar/header/calendar-header-nav-next.tsx",
+				"files/calendar/header/calendar-header-nav-prev.tsx",
+				"files/calendar/header/calendar-header-nav.tsx",
+				"files/calendar/header/calendar-header.tsx",
+				"files/calendar/header/calendar-today-button.tsx",
+				"files/calendar/header/calendar-view-switcher-btn.tsx",
+				"files/calendar/header/calendar-view-switcher.tsx",
+				"files/calendar/footer/calendar-footer.tsx",
+				"files/calendar/content/calendar-cell-button.tsx",
+				"files/calendar/content/calendar-content.tsx",
+				"files/calendar/content/calendar-time-col-header.tsx",
+				"files/calendar/content/calendar-time-col.tsx",
+				"files/calendar/content/day/calendar-day-grid.tsx",
+				"files/calendar/content/day/calendar-day-header.tsx",
+				"files/calendar/content/day/calendar-day-view.tsx",
+				"files/calendar/content/month/calendar-month-grid.tsx",
+				"files/calendar/content/month/calendar-month-header.tsx",
+				"files/calendar/content/month/calendar-month-view.tsx",
+				"files/calendar/content/week/calendar-week-grid.tsx",
+				"files/calendar/content/week/calendar-week-header.tsx",
+				"files/calendar/content/week/calendar-week-view.tsx"
+			]
+		}
+	]
+}

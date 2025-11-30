@@ -1,0 +1,52 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# pnpm store (optional — can stay global)
+.pnpm-store/
+
+# System/Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# Vite playground
+playground/.vite/
+playground/node_modules/
+playground/dist/
+playground/.cache/
+
+# Tailwind / PostCSS / Cache
+*.css.map
+.postcssrc.*
+.stylelintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Env / config you will generate later
+.env
+.env*.local
+
+# Test watchers & browser data
+.vitest/
+*.log
+*.pid
+
+# Registry doesn’t generate builds — only raw files allowed
+packages/registry/.vercel/
+
