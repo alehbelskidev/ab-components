@@ -3,7 +3,7 @@ import { type HTMLAttributes, useMemo } from "react"
 import { cn } from "../../lib/utils"
 import { useCalendar } from "../../use-calendar"
 
-type CalendarDayHeaderProps = HTMLAttributes<HTMLDivElement> & {
+type CalendarDayHeaderProps = HTMLAttributes<HTMLButtonElement> & {
 	format?: string
 	onHeaderCellClick?: (date: Dayjs) => void
 	colStart?: number
@@ -14,6 +14,7 @@ const CalendarDayHeader = ({
 	className = "",
 	onHeaderCellClick,
 	colStart = 1,
+	...props
 }: CalendarDayHeaderProps) => {
 	const { viewDate } = useCalendar()
 	const { title, gridClass, col, date } = useMemo(() => {
@@ -41,6 +42,7 @@ const CalendarDayHeader = ({
 				gridRow: 1,
 			}}
 			onClick={() => onHeaderCellClick?.(date)}
+			{...props}
 		>
 			{title}
 		</button>
