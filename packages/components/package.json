@@ -1,5 +1,5 @@
 {
-	"name": "@ab-components",
+	"name": "ab-components",
 	"version": "0.0.1",
 	"description": "Functional Tailwind React components",
 	"type": "module",
@@ -17,7 +17,6 @@
 		"react-dom": "^19.0.0"
 	},
 	"devDependencies": {
-		"@radix-ui/react-separator": "^1.1.8",
 		"@radix-ui/react-slot": "^1.2.4",
 		"@testing-library/jest-dom": "^6.9.1",
 		"@testing-library/react": "^16.3.0",
@@ -26,15 +25,12 @@
 		"@types/react-dom": "^19.0.0",
 		"@vitejs/plugin-react": "^5.1.1",
 		"@vitest/coverage-v8": "4.0.14",
-		"class-variance-authority": "^0.7.1",
-		"clsx": "^2.1.1",
 		"dayjs": "^1.11.19",
 		"happy-dom": "^20.0.10",
 		"jsdom": "^27.2.0",
 		"lucide-react": "^0.555.0",
 		"react": "^19.2.0",
 		"react-dom": "^19.2.0",
-		"tailwind-merge": "^3.4.0",
 		"vitest": "^4.0.9"
 	}
 }

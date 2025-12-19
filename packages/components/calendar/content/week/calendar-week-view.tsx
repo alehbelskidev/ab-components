@@ -6,7 +6,7 @@ import {
 	type ReactNode,
 	useMemo,
 } from "react"
-import { cn } from "../../lib/utils"
+import { cn } from "@/lib/utils"
 
 type CalendarWeekViewProps = HTMLAttributes<HTMLDivElement> & {
 	cellClass?: string

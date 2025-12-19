@@ -6,7 +6,7 @@ import {
 	isValidElement,
 	useMemo,
 } from "react"
-import { cn } from "../../lib/utils"
+import { cn } from "@/lib/utils"
 import { useCalendar } from "../../use-calendar"
 
 type CalendarMonthGridProps = HTMLAttributes<HTMLDivElement> & {

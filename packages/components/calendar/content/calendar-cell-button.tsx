@@ -2,7 +2,7 @@ import { Slot } from "@radix-ui/react-slot"
 import dayjs, { Dayjs } from "dayjs"
 import { Plus } from "lucide-react"
 import { forwardRef, type HTMLAttributes } from "react"
-import { cn } from "../lib/utils"
+import { cn } from "@/lib/utils"
 
 type CalendarCellButtonProps = HTMLAttributes<HTMLButtonElement> & {
 	date?: Dayjs

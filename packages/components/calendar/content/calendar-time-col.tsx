@@ -1,6 +1,6 @@
 import dayjs from "dayjs"
 import { type HTMLAttributes, type ReactNode, useMemo } from "react"
-import { cn } from "../lib/utils"
+import { cn } from "@/lib/utils"
 
 type CalendarTimeColProps = HTMLAttributes<HTMLDivElement> & {
 	colStart?: number

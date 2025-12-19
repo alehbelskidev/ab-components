@@ -1,8 +1,8 @@
 import { Slot } from "@radix-ui/react-slot"
 import dayjs from "dayjs"
 import { forwardRef, type HTMLAttributes, useCallback } from "react"
-import { Button } from "../components/ui/button"
-import { cn } from "../lib/utils"
+import { Button } from "@/components/ui/button"
+import { cn } from "@/lib/utils"
 import { useCalendar } from "../use-calendar"
 
 type CalendarTodayButtonProps = HTMLAttributes<HTMLButtonElement> & {

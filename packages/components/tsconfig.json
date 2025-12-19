@@ -1,9 +1,19 @@
 {
 	"extends": "../../tsconfig.json",
 	"compilerOptions": {
-		"composite": true,
+		"composite": false,
 		"types": ["vitest/globals", "@testing-library/jest-dom"],
-		"outDir": "dist"
+		"outDir": "dist",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["../../playground/src/*"]
+		}
 	},
-	"include": ["calendar", "vitest.setup.ts"]
+	"include": [
+		"calendar",
+		"vitest.setup.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"../../../playground/src/lib/utils.ts"
+	]
 }

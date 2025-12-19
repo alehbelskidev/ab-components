@@ -12,7 +12,12 @@
 		"isolatedDeclarations": false,
 		"noEmit": true,
 		"types": ["vite/client"],
-		"baseUrl": "."
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"],
+			"ab-components/calendar": ["../packages/components/calendar"],
+			"ab-components/calendar/*": ["../packages/components/calendar/*"]
+		}
 	},
-	"include": ["src"]
+	"include": ["src", "../packages/components/calendar"]
 }

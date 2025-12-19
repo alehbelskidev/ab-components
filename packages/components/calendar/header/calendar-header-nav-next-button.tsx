@@ -1,8 +1,8 @@
 import { Slot } from "@radix-ui/react-slot"
 import { ChevronRight } from "lucide-react"
 import { forwardRef, type HTMLAttributes } from "react"
-import { Button } from "../components/ui/button"
-import { cn } from "../lib/utils"
+import { Button } from "@/components/ui/button"
+import { cn } from "@/lib/utils"
 import { useCalendar } from "../use-calendar"
 
 type CalendarHeaderNavNextButtonProps = HTMLAttributes<HTMLButtonElement> & {

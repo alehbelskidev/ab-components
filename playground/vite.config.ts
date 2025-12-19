@@ -9,6 +9,7 @@ export default defineConfig({
 	resolve: {
 		alias: {
 			"ab-components": path.resolve(__dirname, "../packages/components"),
+			"@": path.resolve(__dirname, "./src"),
 		},
 	},
 })

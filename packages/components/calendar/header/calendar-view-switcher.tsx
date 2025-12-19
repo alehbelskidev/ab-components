@@ -1,14 +1,14 @@
 import { Slot } from "@radix-ui/react-slot"
 import { forwardRef, type HTMLAttributes } from "react"
-import { ButtonGroup } from "../components/ui/button-group"
-import { cn } from "../lib/utils"
+import { ButtonGroup } from "@/components/ui/button-group"
+import { cn } from "@/lib/utils"
 
-type CalendarViewSwitcherProps = HTMLAttributes<HTMLDivElement> & {
+type CalendarViewSwitcherProps = HTMLAttributes<HTMLFieldSetElement> & {
 	asChild?: boolean
 }
 
 const CalendarViewSwitcher = forwardRef<
-	HTMLDivElement,
+	HTMLFieldSetElement,
 	CalendarViewSwitcherProps
 >(({ asChild = false, className, ...props }, ref) => {
 	const Comp = asChild ? Slot : ButtonGroup
