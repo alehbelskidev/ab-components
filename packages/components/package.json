@@ -8,8 +8,8 @@
 	"license": "MIT",
 	"sideEffects": false,
 	"scripts": {
-		"test": "vitest .",
-		"test:watch": "vitest --watch",
+		"test": "vitest run",
+		"test:watch": "vitest .",
 		"coverage": "vitest run --coverage"
 	},
 	"peerDependencies": {

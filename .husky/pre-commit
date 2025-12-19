@@ -1,0 +1,4 @@
+pnpm check
+pnpm format
+pnpm type-check
+pnpm --filter ab-components test
