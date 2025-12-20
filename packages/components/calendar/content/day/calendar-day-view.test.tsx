@@ -2,12 +2,12 @@ import { render, screen } from "@testing-library/react"
 import "@testing-library/jest-dom"
 import dayjs from "dayjs"
 import { CalendarProvider } from "../../calendar-provider"
-import CalendarDayView from "./calendar-day-view"
-import CalendarDayHeader from "./calendar-day-header"
+import CalendarCellButton from "../calendar-cell-button"
 import CalendarTimeCol from "../calendar-time-col"
 import CalendarTimeColHeader from "../calendar-time-col-header"
 import CalendarDayGrid from "./calendar-day-grid"
-import CalendarCellButton from "../calendar-cell-button"
+import CalendarDayHeader from "./calendar-day-header"
+import CalendarDayView from "./calendar-day-view"
 
 describe("<CalendarDayView", () => {
 	it("Renders component with children: header, timecol > timecol header, daygrid, daygrid > cell button", () => {
