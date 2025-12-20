@@ -18,6 +18,7 @@ const CalendarCellButton = forwardRef<
 
 	return (
 		<Comp
+			data-slot="calendar-cell-button"
 			ref={ref}
 			type="button"
 			className={cn(

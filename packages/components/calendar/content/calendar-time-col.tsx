@@ -46,6 +46,8 @@ const CalendarTimeCol = ({
 						gridColumn: col,
 						gridRow: row,
 					}}
+					data-calendar-timecol-start={`col-${col}`}
+					data-calendar-timecol-slot={`row-${row}`}
 				>
 					{title}
 				</div>

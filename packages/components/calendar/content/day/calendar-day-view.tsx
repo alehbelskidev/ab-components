@@ -74,7 +74,7 @@ const CalendarDayView = ({
 
 	return (
 		<div
-			data-calendar-view="week"
+			data-calendar-view="day"
 			className={cn("w-full h-full grid flex-1", className)}
 			style={{
 				gridTemplateColumns,

@@ -31,6 +31,7 @@ const CalendarDayHeader = ({
 
 	return (
 		<button
+			data-id="calendar-day-header"
 			type="button"
 			className={cn(
 				"text-center font-semibold cursor-pointer",

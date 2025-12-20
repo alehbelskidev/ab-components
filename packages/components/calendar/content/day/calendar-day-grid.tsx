@@ -46,7 +46,8 @@ const CalendarDayGrid = ({ colStart = 1, children }: CalendarDayGridProps) => {
 						gridColumn: col,
 						gridRow: row,
 					}}
-					data-slot="calendar-day-grid"
+					data-calendar-daygrid-col={`daygrid-col-${col}`}
+					data-calendar-daygrid-row={`daygrid-row-${row}`}
 				>
 					{Children.map(children, (child) => {
 						if (!isValidElement(child)) {
